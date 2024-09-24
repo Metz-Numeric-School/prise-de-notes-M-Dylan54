@@ -155,7 +155,47 @@ ex:
 	`n=n+1`
 
 
- 
+---
+
+
+### Listes :
+
+**Permettent de contenir plusieurs valeurs.**
+
+ex : 
+* `chats=["bibou", "tartuffe", "frimousse"]`
+* `divers=["a", "12", "3.14"]`
+`l = [1, 2, 3, 4]`
+indices de l:
+`l = [0, 1, 2, 3]`
+`print(l[2])` affiche 3
+`print(len(l))` affiche 4
+
+**Parcourir une liste :**
+
+`fruits=["pomme", "fraise", "banane"]`
+
+`for i in range(0, len(fruits)) :`
+	`print(fruits[i])`
+
+`vegetables=["aubergine", "brocoli", "haricot"]`
+
+`for vegetable in vegetables:`
+	`print(vegetable)`
+
+---
+
+
+### Fonctions :
+
+def somme(a,b) : 
+	print(f"la somme de {a} + {b} = {a+b}")
+somme(5,2)
+somme(3,3)
+
+
+
+
  
 
 
